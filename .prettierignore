@@ -1,0 +1,8 @@
+node_modules
+.next
+.cache
+public
+bun.lock
+pnpm-lock.yaml
+licenses
+next-env.d.ts
