@@ -6,5 +6,5 @@ export const site = {
     name: "Rose Barbosa",
     creci: "8740",
   },
-  letterhead: "/letterhead/timbrado.png",
+  letterhead: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/letterhead/timbrado.png`,
 } as const;
